@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Chewy&display=swap");
+
+* {
+    scroll-behavior: smooth;
+}
+
+.ff_Balsamiq {
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+.ff_chewy {
+    font-family: "Chewy", system-ui;
+}
+
+@font-face {
+    font-family: "lucky";
+    src: url(assets/fonts/LuckyDino.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ff_lucky {
+    font-family: "lucky";
+}
+
+.plan_ani {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    animation: plane 6s linear 2.6s 1;
+}
+
+
+.walking-img {
+    animation: walk 9s steps(10) infinite, forward 12s linear infinite;
+}
+
+.ImgAnimate {
+    animation: walk2 2000s steps(10) infinite, ImgAnimate 12s linear infinite;
+}
+
+.vertical_motion {
+    animation: mover 1.11s infinite alternate;
+}
+
+.bg-herosec {
+    background-image: url('./assets/images/herobg.webp');
+}
+
+@keyframes plane {
+
+    0% {
+        top: -500px;
+        right: -800px;
+        opacity: .0;
+        scale: .2;
+        rotate: 30deg;
+    }
+
+    15% {
+        top: -330px;
+        right: -620px;
+        opacity: .3;
+        scale: .3;
+        rotate: 30deg;
+    }
+
+    30% {
+        top: -240px;
+        right: -440px;
+        opacity: .6;
+        scale: .4;
+        rotate: 20deg;
+    }
+
+    45% {
+        top: -160px;
+        right: -260px;
+        opacity: .7;
+        scale: .5;
+        rotate: 10deg;
+    }
+
+    60% {
+        top: -80px;
+        right: -80px;
+        opacity: .8;
+        scale: .6;
+        rotate: 0deg;
+    }
+
+    100% {
+        top: -0px;
+        right: 0px;
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes walk {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-size: cover;
+    }
+}
+
+@keyframes walk2 {
+    0% {
+        background-position: 0px;
+        left: 25%;
+    }
+
+    100% {
+        background-size: cover;
+        left: 95%;
+    }
+}
+
+@keyframes forward {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(-900px);
+    }
+}
+
+@keyframes ImgAnimate {
+    0% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(500px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(-7px);
+    }
+
+    100% {
+        transform: translateY(-14px);
+    }
+}
+
+.bg-100-100 {
+    background-size: 100% 100%;
+}
+
+.loader {
+    border: 4px solid #ffffff41;
+    border-left-color: transparent;
+    border-radius: 50%;
+}
+
+.loader {
+    border: 4px solid #ffffff41;
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+}
+
+.loader {
+    border: 4px solid #ffffff41;
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+    animation: spin89345 1s linear infinite;
+}
+
+@keyframes spin89345 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1024px) {
+    .overflow_hidden {
+        overflow: hidden;
+    }
+
+    .bg-100-100 {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 576px) {
+    .walking-img {
+        animation: walk 9s steps(10) infinite, forward 6s linear infinite;
+    }
+
+    @keyframes forward {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-300px);
+        }
+    }
+}
