@@ -24,7 +24,7 @@ const Roadmap = () => {
                         className="flex  flex-row sm:items-center xl:gap-[45px] lg:gap-[25px] gap-3.5 relative z-10"
                         data-aos="zoom-in-right"
                     >
-                        <h3 className="lg:text-[200px] max-[522px]:text-[55px] max-[522px]:min-w-[61px] sm:w-[134px] leading-[96%] sm:leading-normal sm:text-[120px] text-[70px] font-normal md:w-[auto]  md:leading-[131%] ff_chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]">
+                        <h3 className="lg:text-[200px] max-[522px]:text-[55px] max-[522px]:min-w-[61px] max-sm:min-w-[78px] sm:w-[134px] leading-[96%] sm:leading-normal sm:text-[120px] text-[70px] font-normal md:w-[auto]  md:leading-[131%] ff_chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]">
                             01{" "}
                         </h3>
                         <ul className="flex flex-col gap-4 max-[522px]:gap-2 list-disc pl-[15px]">
