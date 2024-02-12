@@ -7,7 +7,7 @@ import utilityTree from '../assets/images/utilittree.webp'
 
 const Utilitysection = () => {
     return (
-        <div className='relative overflow-hidden xl:pt-[230px] sm:pt-[150px] pt-[100px] bg-[#0A4740]'>
+        <div className='relative overflow-hidden pb-[168px] xl:pt-[230px] sm:pt-[150px] pt-[100px] bg-[#0A4740]'>
             <div className='container mx-auto xl:max-w-[1038px] xl:px-3 px-6 relative z-10'>
                 <h2 className=' ff_chewy sm:text-[64px] text-[35px] font-normal text-white text-center leading-[132%]'>Utility and Usecase</h2>
                 <div className='relative z-10 xl:mt-[158px] max-lg:overflow-hidden lg:mt-[100px] md:mt-[70px] mt-[40px] rounded-[20px] border border-solid lg:h-[266px] border-white bg-[#09655A] lg:py-[62px] pt-[40px] lg:pl-[39px] lg:pr-[26px] px-[20px] flex lg:justify-between lg:flex-row flex-col'>

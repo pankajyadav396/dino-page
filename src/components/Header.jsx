@@ -18,7 +18,7 @@ const HeroSection = () => {
                     data-aos="zoom-in" />
                 <div className="max-w-[1156px] mx-auto px-3">
                     <Navbar />
-                    <div className="flex sm:flex-row flex-col-reverse items-center flex-wrap">
+                    <div className="flex sm:flex-row flex-col-reverse items-end flex-wrap">
                         <div
                             className="sm:w-5/12 w-full sm:mt-0 mt-5 flex items-end justify-center sm:justify-end xl:ps-10 aos-init aos-animate"
                             data-aos="zoom-in"><img src={DinoWithPlane} alt="Dino-with-plane"
