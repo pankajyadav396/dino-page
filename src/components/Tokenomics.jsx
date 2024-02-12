@@ -19,7 +19,7 @@ const Tokenomics = () => {
                     className="w-full absolute -top-1 left-0 z-[0]" />
                 <img src={dinoElipse}
                     alt="TokenDragon"
-                    className="absolute xl:bottom-[5%] sm:bottom-[-30px] bottom-0 left-0 w-full md:max-w-[211px] sm:max-w-[150px] max-w-[130px] z-[1] vertical_motion" />
+                    className="absolute xl:bottom-[5%] sm:bottom-[-30px] bottom-0 left-0 w-full md:max-w-[211px] sm:max-w-[150px] max-w-[130px] z-[1] up-down-anime" />
                 <img
                     src={treeElipse} alt="TokenLeftTree"
                     className="absolute z-[0] xl:bottom-[10%] sm:bottom-[5%] bottom-0 left-0 w-full md:max-w-[352px] max-w-[200px]" />
@@ -36,7 +36,7 @@ const Tokenomics = () => {
                         <div className="relative xl:max-w-[589.84px] lg:max-w-[515px] sm:max-w-[390px] max-w-[330px]">
                             <img
                                 src={CenterDino} alt="centre-dino"
-                                className="xl:flex hidden absolute w-full lg:top-[-35%] left-[39%] max-w-[134px] vertical_motion aos-init aos-animate"
+                                className="xl:flex hidden absolute w-full lg:top-[-35%] left-[39%] max-w-[134px] up-down-anime aos-init aos-animate"
                                 data-aos="zoom-in" />
                             <img src={Chart} alt="Chart"
                                 className="xl:block hidden w-full aos-init aos-animate" data-aos="zoom-in" />

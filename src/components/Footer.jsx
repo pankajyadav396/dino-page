@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='bg-[url(./assets/images/footerbg.webp)] min-h-[345px] lg:bg-full bg-cover bg-center bg-repeat pt-7 z-2 relative'>
-                    <img src={mover} alt="" className=' absolute bottom-0 right-0 vertical_motion max-sm:max-w-[170px]' />
+                    <img src={mover} alt="" className=' absolute bottom-0 right-0 up-down-anime max-sm:max-w-[170px]' />
                 </div>
             </div >
         </>

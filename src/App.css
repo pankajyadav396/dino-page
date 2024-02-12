@@ -23,7 +23,7 @@
     font-family: "lucky";
 }
 
-.plan_ani {
+.plane-animation {
     position: relative;
     top: 0;
     right: 0;
@@ -32,20 +32,55 @@
 }
 
 
-.walking-img {
+.dino-walking {
     animation: walk 9s steps(10) infinite, forward 12s linear infinite;
 }
 
-.ImgAnimate {
-    animation: walk2 2000s steps(10) infinite, ImgAnimate 12s linear infinite;
+.dino-animation {
+    animation: walk2 2000s steps(10) infinite, dino-animation 12s linear infinite;
 }
 
-.vertical_motion {
+.up-down-anime {
     animation: mover 1.11s infinite alternate;
 }
 
 .bg-herosec {
     background-image: url('./assets/images/herobg.webp');
+}
+
+.bg-100-100 {
+    background-size: 100% 100%;
+}
+
+.loader {
+    border: 4px solid #ffffff41;
+    border-left-color: transparent;
+    border-radius: 50%;
+}
+
+.loader {
+    border: 4px solid #ffffff41;
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+}
+
+.loader {
+    border: 4px solid #ffffff41;
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+    animation: spin89345 1s linear infinite;
+}
+
+@keyframes spin89345 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes plane {
@@ -130,7 +165,7 @@
     }
 }
 
-@keyframes ImgAnimate {
+@keyframes dino-animation {
     0% {
         transform: translateX(100px);
     }
@@ -150,41 +185,6 @@
     }
 }
 
-.bg-100-100 {
-    background-size: 100% 100%;
-}
-
-.loader {
-    border: 4px solid #ffffff41;
-    border-left-color: transparent;
-    border-radius: 50%;
-}
-
-.loader {
-    border: 4px solid #ffffff41;
-    border-left-color: transparent;
-    width: 36px;
-    height: 36px;
-}
-
-.loader {
-    border: 4px solid #ffffff41;
-    border-left-color: transparent;
-    width: 36px;
-    height: 36px;
-    animation: spin89345 1s linear infinite;
-}
-
-@keyframes spin89345 {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 @media (max-width: 1024px) {
     .overflow_hidden {
         overflow: hidden;
@@ -196,7 +196,7 @@
 }
 
 @media (max-width: 576px) {
-    .walking-img {
+    .dino-walking {
         animation: walk 9s steps(10) infinite, forward 6s linear infinite;
     }
 
