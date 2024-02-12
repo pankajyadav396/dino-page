@@ -31,7 +31,6 @@
     animation: plane 6s linear 2.6s 1;
 }
 
-
 .dino-walking {
     animation: walk 9s steps(10) infinite, forward 12s linear infinite;
 }
