@@ -6,7 +6,7 @@ import Roadmap from '../assets/images/ChartRoadMap.webp'
 import cloudShadow from '../assets/images/TokenShadow.webp'
 import bottomLayer from '../assets/images/TokenGrassLayer.webp'
 import dinoElipse from '../assets/images/dinotoke2.webp'
-import treeElipse from '../assets/images/TokenLeftTree.webp'
+import treeElipse from '../assets/images/tokelefttree.png'
 import topLayer from "../assets/images/tokenomicstoplayer.webp"
 const Tokenomics = () => {
     return (
@@ -19,15 +19,15 @@ const Tokenomics = () => {
                     className="w-full absolute -top-1 left-0 z-[0]" />
                 <img src={dinoElipse}
                     alt="TokenDragon"
-                    className="absolute xl:bottom-[5%] sm:bottom-[-30px] bottom-0 left-0 w-full md:max-w-[211px] sm:max-w-[150px] max-w-[130px] z-[1] up-down-anime" />
+                    className="absolute sm:z-[2] z-[1] xl:bottom-[2%] sm:bottom-[-30px] bottom-0 left-0 w-full md:max-w-[211px] sm:max-w-[150px] max-w-[130px]  up-down-anime" />
                 <img
                     src={treeElipse} alt="TokenLeftTree"
-                    className="absolute z-[0] xl:bottom-[10%] sm:bottom-[5%] bottom-0 left-0 w-full md:max-w-[352px] max-w-[200px]" />
+                    className="absolute sm:z-[1] z-[0] xl:bottom-[4%] sm:bottom-[1%] bottom-0 left-0 w-full md:max-w-[352px] max-w-[200px]" />
                 <img
                     src={bottomLayer} alt="Bottom-Layer"
                     className="absolute w-full left-0 right-0 bottom-0" />
                 <div
-                    className="max-w-[1156px] relative z-[1] xl:max-w-[1147px] xl:px-3 px-5 mx-auto sm:pt-[236px] pt-[80px] xl:pb-[540px] lg:pb-[400px] sm:pb-[350px] pb-[175px]"
+                    className="max-w-[1156px] relative z-[1] xl:max-w-[1147px] xl:px-3 px-5 mx-auto sm:pt-[236px] pt-[80px] xl:pb-[440px] lg:pb-[300px] sm:pb-[250px] pb-[75px]"
                     id="Tokenomic">
                     <h3
                         className="text-white font-normal ff_chewy sm:text-[64px] text-[42px] leading-[131%] text-center xl:mb-[150px] lg:mb-[60px] mb-[45px] aos-init aos-animate"
