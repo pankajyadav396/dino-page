@@ -22,7 +22,7 @@ const Roadmap = () => {
                 <div className="md:pl-0 sm:pl-[130px] pl-[70px]">
                     <div
                         className="flex  flex-row sm:items-center xl:gap-[45px] lg:gap-[25px] gap-3.5 relative z-10"
-                        data-aos="zoom-in-right"
+                        data-aos="fade-down"
                     >
                         <h3 className="lg:text-[200px] max-[522px]:text-[55px] max-[522px]:min-w-[61px] max-sm:min-w-[78px] sm:w-[134px] leading-[96%] sm:leading-normal sm:text-[120px] text-[70px] font-normal md:w-[auto]  md:leading-[131%] ff_chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]">
                             01{" "}
@@ -46,7 +46,7 @@ const Roadmap = () => {
                     </div>
                     <div
                         className="flex flex-row sm:items-center lg:justify-end md:justify-center lg:pl-0 md:pl-[100px] lg:gap-[30px] gap-[15px] lg:pr-[100px] md:pt-[245px] pt-[30px] relative z-10"
-                        data-aos="zoom-in-left"
+                        data-aos="fade-down"
                     >
                         <h3 className="lg:text-[200px] max-[522px]:text-[55px] leading-[96%] sm:leading-normal sm:text-[120px] text-[70px] md:leading-[131%] ff_chewy font-normal text-[#8EC627] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]">
                             02
@@ -70,7 +70,7 @@ const Roadmap = () => {
                     </div>
                     <div
                         className="flex flex-row sm:items-center xl:gap-[45px] lg:gap-[25px] gap-[14px] lg:pt-[152px] md:pt-[143px] pt-[30px] relative z-10"
-                        data-aos="zoom-in-right"
+                        data-aos="fade-down"
                     >
                         <h3 className="lg:text-[220.95px] max-[522px]:text-[55px] leading-[96%] sm:leading-normal sm:text-[120px] text-[70px] font-normal ff_chewy text-[#D45B07] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] md:leading-[131%]">
                             03
@@ -94,7 +94,7 @@ const Roadmap = () => {
                     </div>
                     <div
                         className="flex flex-row sm:items-center md:justify-center lg:gap-[30px] gap-[15px] md:pt-[154px] pt-[30px] relative z-10"
-                        data-aos="zoom-in-left"
+                        data-aos="zoom-in"
                     >
                         <h3 className="lg:text-[200px] max-[522px]:text-[55px] leading-[96%] sm:leading-normal sm:text-[120px] text-[70px]  ff_chewy font-normal md:ml-[150px] text-[#23AAAC] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] md:leading-[131%]">
                             04
